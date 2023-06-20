@@ -1,0 +1,77 @@
+.hiring {
+  position: relative;
+  padding: 100px 0 250px;
+  background: linear-gradient(268.52deg, #E3E7F6 -52.27%, rgba(227, 231, 246, 0) 138.23%);
+  @media (max-width: $breakpoint992) {
+    padding: 100px 0;
+  }
+  @media (max-width: $breakpoint600) {
+    padding: 75px 0;
+  }
+  &__info {
+    &-box {
+      margin-left: 83px;
+      max-width: 334px;
+      @media (max-width: $breakpoint850) {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+      }
+    }
+    &-title {
+      font-weight: 700;
+      font-size: 44px;
+      line-height: 57px;
+      color: $title;
+      @media (max-width: $breakpoint480) {
+        font-size: 35px;
+        line-height: 50px;
+      }
+    }
+    &-subtitle {
+      font-size: 16px;
+      line-height: 27px;
+      color: $subtitle;
+      @media (max-width: $breakpoint480) {
+        font-size: 14px;
+        line-height: 23px;
+      }
+    }
+    &-subtitle:nth-child(2) {
+      margin-top: 16px;
+      margin-bottom: 40px;
+    }
+    &-btn {
+      position: relative;
+      @media (max-width: $breakpoint850) {
+        margin-bottom: 50px;
+      }
+    }
+    &-img {
+      position: absolute;
+      left: 766px;
+      top: 150px;
+      @media (max-width: $breakpoint1400) {
+        left: 600px;
+      }
+      @media (max-width: $breakpoint1300) {
+        max-width: 450px;
+      }
+      @media (max-width: $breakpoint1150) {
+        max-width: 350px;
+      }
+      @media (max-width: $breakpoint1100) {
+        left: 500px;
+      }
+      @media (max-width: $breakpoint992) {
+        left: 450px;
+      }
+      @media (max-width: $breakpoint850) {
+        position: static;
+      }
+      @media (max-width: $breakpoint480) {
+        max-width: 250px;
+      }
+    }
+  }
+}
